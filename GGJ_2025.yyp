@@ -55,6 +55,7 @@
     {"id":{"name":"spr_boton_start","path":"sprites/spr_boton_start/spr_boton_start.yy",},},
     {"id":{"name":"spr_bubble_default","path":"sprites/spr_bubble_default/spr_bubble_default.yy",},},
     {"id":{"name":"spr_bubble_idle_blue","path":"sprites/spr_bubble_idle_blue/spr_bubble_idle_blue.yy",},},
+    {"id":{"name":"spr_bubble_idle_red","path":"sprites/spr_bubble_idle_red/spr_bubble_idle_red.yy",},},
     {"id":{"name":"spr_bubble_pop_blue","path":"sprites/spr_bubble_pop_blue/spr_bubble_pop_blue.yy",},},
     {"id":{"name":"spr_bubble_pop_colision","path":"sprites/spr_bubble_pop_colision/spr_bubble_pop_colision.yy",},},
     {"id":{"name":"spr_bubble_pop_hurt","path":"sprites/spr_bubble_pop_hurt/spr_bubble_pop_hurt.yy",},},
