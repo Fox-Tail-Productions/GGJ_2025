@@ -1,0 +1,1 @@
+controller_difficulty = 3

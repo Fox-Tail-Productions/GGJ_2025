@@ -53,7 +53,6 @@
     {"id":{"name":"spr_boton_atras","path":"sprites/spr_boton_atras/spr_boton_atras.yy",},},
     {"id":{"name":"spr_boton_base","path":"sprites/spr_boton_base/spr_boton_base.yy",},},
     {"id":{"name":"spr_boton_creditos","path":"sprites/spr_boton_creditos/spr_boton_creditos.yy",},},
-    {"id":{"name":"spr_boton_difficultad","path":"sprites/spr_boton_difficultad/spr_boton_difficultad.yy",},},
     {"id":{"name":"spr_boton_salir","path":"sprites/spr_boton_salir/spr_boton_salir.yy",},},
     {"id":{"name":"spr_boton_start","path":"sprites/spr_boton_start/spr_boton_start.yy",},},
     {"id":{"name":"spr_bubble_default","path":"sprites/spr_bubble_default/spr_bubble_default.yy",},},
