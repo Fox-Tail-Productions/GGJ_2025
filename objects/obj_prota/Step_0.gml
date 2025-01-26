@@ -5,7 +5,7 @@ var direction_pointing = 0;
 
 // Direcciones
 if keyboard_check(vk_down) {
-	sprite_index = spr_prota_ouch_17;
+	sprite_index = spr_prota_ouch2_v3;
 	direction_pointing = 1;
 } else if keyboard_check(vk_up) {
 	sprite_index = spr_prota_up;

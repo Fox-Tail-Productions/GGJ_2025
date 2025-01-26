@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_prota_idle",
+    "path":"sprites/spr_prota_idle/spr_prota_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

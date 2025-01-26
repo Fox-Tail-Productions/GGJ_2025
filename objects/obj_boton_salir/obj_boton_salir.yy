@@ -35,7 +35,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_boton_salir",
+    "path":"sprites/spr_boton_salir/spr_boton_salir.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

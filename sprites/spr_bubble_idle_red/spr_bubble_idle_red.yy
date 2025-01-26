@@ -67,7 +67,7 @@
     },
     "name":"spr_bubble_idle_red",
     "playback":1,
-    "playbackSpeed":10.0,
+    "playbackSpeed":24.0,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
