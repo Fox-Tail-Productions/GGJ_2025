@@ -59,6 +59,7 @@
     {"id":{"name":"spr_bubble_pop_blue","path":"sprites/spr_bubble_pop_blue/spr_bubble_pop_blue.yy",},},
     {"id":{"name":"spr_bubble_pop_colision","path":"sprites/spr_bubble_pop_colision/spr_bubble_pop_colision.yy",},},
     {"id":{"name":"spr_bubble_pop_hurt","path":"sprites/spr_bubble_pop_hurt/spr_bubble_pop_hurt.yy",},},
+    {"id":{"name":"spr_bubble_pop_red","path":"sprites/spr_bubble_pop_red/spr_bubble_pop_red.yy",},},
     {"id":{"name":"spr_prota_idle_v2","path":"sprites/spr_prota_idle_v2/spr_prota_idle_v2.yy",},},
     {"id":{"name":"spr_prota_idle","path":"sprites/spr_prota_idle/spr_prota_idle.yy",},},
     {"id":{"name":"spr_prota_left","path":"sprites/spr_prota_left/spr_prota_left.yy",},},

@@ -2,7 +2,7 @@
 if bubble_type == "rojo" {
 	//bubble_sprite_contact   =
 	bubble_sprite_idle      = spr_bubble_idle_red
-	//bubble_sprite_pop       =
+	bubble_sprite_pop       = spr_bubble_pop_red
 } else if bubble_type == "azul" {
 	//bubble_sprite_contact
 	bubble_sprite_idle = spr_bubble_idle_blue
