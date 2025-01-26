@@ -31,3 +31,5 @@ if game_end_triggered > 0 {
 	game_end_triggered = 10;
 	audio_play_sound(sound_pop, 10, false);
 };
+
+if curr_hp < 1 {  curr_hp = max_hp; room_goto(room_menu); };
