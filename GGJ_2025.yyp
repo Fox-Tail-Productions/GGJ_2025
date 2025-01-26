@@ -50,6 +50,7 @@
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"room_youwin","path":"rooms/room_youwin/room_youwin.yy",},},
     {"id":{"name":"sound_pop","path":"sounds/sound_pop/sound_pop.yy",},},
+    {"id":{"name":"deereyescloset4","path":"sprites/deereyescloset4/deereyescloset4.yy",},},
     {"id":{"name":"spr_boton_atras","path":"sprites/spr_boton_atras/spr_boton_atras.yy",},},
     {"id":{"name":"spr_boton_base","path":"sprites/spr_boton_base/spr_boton_base.yy",},},
     {"id":{"name":"spr_boton_creditos","path":"sprites/spr_boton_creditos/spr_boton_creditos.yy",},},
