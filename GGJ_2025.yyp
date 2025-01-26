@@ -39,6 +39,7 @@
   "resources":[
     {"id":{"name":"curve_game_pop","path":"animcurves/curve_game_pop/curve_game_pop.yy",},},
     {"id":{"name":"obj_boton_menu","path":"objects/obj_boton_menu/obj_boton_menu.yy",},},
+    {"id":{"name":"obj_boton_salir","path":"objects/obj_boton_salir/obj_boton_salir.yy",},},
     {"id":{"name":"obj_bubble","path":"objects/obj_bubble/obj_bubble.yy",},},
     {"id":{"name":"obj_prota","path":"objects/obj_prota/obj_prota.yy",},},
     {"id":{"name":"room_credits","path":"rooms/room_credits/room_credits.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"spr_boton_base","path":"sprites/spr_boton_base/spr_boton_base.yy",},},
     {"id":{"name":"spr_boton_creditos","path":"sprites/spr_boton_creditos/spr_boton_creditos.yy",},},
     {"id":{"name":"spr_boton_difficultad","path":"sprites/spr_boton_difficultad/spr_boton_difficultad.yy",},},
+    {"id":{"name":"spr_boton_salir","path":"sprites/spr_boton_salir/spr_boton_salir.yy",},},
     {"id":{"name":"spr_boton_start","path":"sprites/spr_boton_start/spr_boton_start.yy",},},
     {"id":{"name":"spr_bubble_default","path":"sprites/spr_bubble_default/spr_bubble_default.yy",},},
     {"id":{"name":"spr_bubble_idle_blue","path":"sprites/spr_bubble_idle_blue/spr_bubble_idle_blue.yy",},},
