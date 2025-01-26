@@ -20,3 +20,8 @@ if bubble_pop == 0 {
 	bubble_pop -= 1;
 };
 if bubble_triggered and bubble_pop < 1 { bubble_pop = 10; };
+
+// Bubble path system
+// bubble_path
+// bubble_pos
+// bubble_vulnerable

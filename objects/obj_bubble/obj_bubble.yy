@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_bubble",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_prota","path":"objects/obj_prota/obj_prota.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -41,6 +40,10 @@
     {"$GMObjectProperty":"v1","%Name":"bubble_sprite_idle","filters":[],"listItems":[],"multiselect":false,"name":"bubble_sprite_idle","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_bubble_default","path":"sprites/spr_bubble_default/spr_bubble_default.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_bubble_default","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"bubble_sprite_pop","filters":[],"listItems":[],"multiselect":false,"name":"bubble_sprite_pop","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_bubble_pop_hurt","path":"sprites/spr_bubble_pop_hurt/spr_bubble_pop_hurt.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_bubble_pop_hurt","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"bubble_sprite_contact","filters":[],"listItems":[],"multiselect":false,"name":"bubble_sprite_contact","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_bubble_pop_colision","path":"sprites/spr_bubble_pop_colision/spr_bubble_pop_colision.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_bubble_pop_colision","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"bubble_path","filters":[],"listItems":[],"multiselect":false,"name":"bubble_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"path_bubbles_top_base","path":"paths/path_bubbles_top_base/path_bubbles_top_base.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_bubbles_top_base","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"bubble_pos","filters":[],"listItems":[],"multiselect":false,"name":"bubble_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"bubble_vulnerable","filters":[],"listItems":[],"multiselect":false,"name":"bubble_vulnerable","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"bubble_speed","filters":[],"listItems":[],"multiselect":false,"name":"bubble_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

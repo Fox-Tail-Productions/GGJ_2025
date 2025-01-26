@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"path_bubbles_right_base",
+  "closed":false,
+  "kind":1,
+  "name":"path_bubbles_right_base",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1043.8921,"y":231.51126,},
+    {"speed":100.0,"x":864.8921,"y":337.51126,},
+    {"speed":100.0,"x":590.8921,"y":396.51126,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
