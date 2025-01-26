@@ -7,7 +7,7 @@
   },
   "bitDepth":0,
   "bitRate":16,
-  "compression":0,
+  "compression":2,
   "conversionMode":0,
   "duration":0.12,
   "name":"sound_pop",

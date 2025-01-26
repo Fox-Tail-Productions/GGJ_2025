@@ -31,5 +31,3 @@ if game_end_triggered > 0 {
 	game_end_triggered = 10;
 	audio_play_sound(sound_pop, 10, false);
 };
-
-// 
