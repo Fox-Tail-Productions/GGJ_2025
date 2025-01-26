@@ -1,3 +1,4 @@
+/// STEP PROTA
 // Game: Arrow Key Sprite Changer
 sprite_index = spr_prota_idle;
 var direction_pointing = 0;
@@ -25,7 +26,8 @@ if game_end_triggered > 0 {
 	var tpop        = animcurve_channel_evaluate(pop_channel, pop_at);
 	window_set_size(start_windowWidth * tpop, start_windowHeight * tpop);
 	game_end_triggered -= 1;
-}; if keyboard_check(vk_escape) and game_end_triggered < 1 {
+}; if ((keyboard_check(vk_escape) and game_end_triggered == -1)) // se apreto escape 
+   or (game_end_triggered == -2) { // Se apreto el boton de salir
 	game_end_triggered = 10;
 	audio_play_sound(sound_pop, 10, false);
 };
