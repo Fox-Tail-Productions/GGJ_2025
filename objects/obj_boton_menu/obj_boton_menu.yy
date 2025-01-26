@@ -28,7 +28,7 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"button_target_key","filters":[],"listItems":[],"multiselect":false,"name":"button_target_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"vk_nokey","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"button_target_location","filters":[],"listItems":[],"multiselect":false,"name":"button_target_location","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_menu","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"button_hold_time","filters":[],"listItems":[],"multiselect":false,"name":"button_hold_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"button_hold_time","filters":[],"listItems":[],"multiselect":false,"name":"button_hold_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"button_hold_timer","filters":[],"listItems":[],"multiselect":false,"name":"button_hold_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",

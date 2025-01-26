@@ -2,14 +2,14 @@
 var bubble;
 var action = 0;
 var bx, by;
-var b_path;
+var b_dir;
 
 // right = 1
 // left  = 2
 // top   = 3
 
-        controller_running_timer += delta_time / 1000000;
-     if controller_running_timer > 13.0 { room_goto_next() }
+        controller_running_timer += delta_time * controller_difficulty / 1000000;
+     if controller_running_timer > 13.0 { controller_running_timer = 0; controller_difficulty += 1; room_goto_next() }
 else if controller_running_timer > 11.1 { action = 3 }
 else if controller_running_timer > 10.9 { action = 1 }
 else if controller_running_timer > 10.6 { action = 1 }
@@ -60,24 +60,22 @@ else if controller_running_timer > 0.6  { action = 1 }
 if action != 0 {
 	switch action {
 		case 1:
-			bx = controller_right_x;
-			by = controller_right_y;
-			b_path = path_bubbles_right_base;
+			bx    = controller_right_x;
+			by    = controller_right_y;
+			b_dir = vk_right;
 		break
 		case 2:
-			bx = controller_right_x;
-			by = controller_right_y;
-			b_path = path_bubbles_left_base;
+			bx    = controller_right_x;
+			by    = controller_right_y;
+			b_dir = vk_left;
 		break
 		case 3:
-			bx = controller_right_x;
-			by = controller_right_y;
-			b_path = path_bubbles_top_base;
+			bx    = controller_right_x;
+			by    = controller_right_y;
+			b_dir = vk_up;
 		break
 	};
 	bubble = instance_create_layer(bx, by, layer, obj_bubble);
-	bubble.bubble_type = "rojo";
-	bubble.bubble_path = b_path;
-	bubble.image_xscale = 2;
-	bubble.image_yscale = 2;
+	bubble.bubble_type      = "rojo";
+	bubble.bubble_direction = b_dir;
 }
