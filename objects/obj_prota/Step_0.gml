@@ -18,6 +18,8 @@ if keyboard_check(vk_down) {
 	direction_pointing = 4;
 };
 
+
+
 // Al salir, suena sonido de burbuja y la ventana explota como burbuja
 if game_end_triggered == 0 { game_end(0); } else
 if game_end_triggered > 0 {
@@ -49,4 +51,11 @@ if ((keyboard_check(vk_escape) and game_end_triggered == -1)) {
 	audio_play_sound(sound_pop, 10, false);
 };
 
+// hurt n hp n stuff
 if curr_hp < 1 {  curr_hp = max_hp; room_goto(room_menu); };
+
+// ouchi ouchi ouch
+if trigger_hurt           { hurt_timer += delta_time;
+	if hurt_timer < hurt_time { sprite_index = spr_prota_ouch2_v3;
+	} else { trigger_hurt = false; };
+}

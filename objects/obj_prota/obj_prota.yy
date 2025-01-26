@@ -31,6 +31,8 @@
     {"$GMObjectProperty":"v1","%Name":"game_end_triggered","filters":[],"listItems":[],"multiselect":false,"name":"game_end_triggered","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"curr_hp","filters":[],"listItems":[],"multiselect":false,"name":"curr_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"max_hp","filters":[],"listItems":[],"multiselect":false,"name":"max_hp","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"hurt_timer","filters":[],"listItems":[],"multiselect":false,"name":"hurt_timer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"hurt_time","filters":[],"listItems":[],"multiselect":false,"name":"hurt_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.625","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

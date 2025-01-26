@@ -1,1 +1,0 @@
-path_start(bubble_path, bubble_speed, path_action_stop, true);
