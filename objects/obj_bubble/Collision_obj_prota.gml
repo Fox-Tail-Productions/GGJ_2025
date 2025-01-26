@@ -1,7 +1,8 @@
 self.bubble_triggered = true;
-if keyboard_check(bubble_direction) {
-	other.trigger_hurt   = true;
-	 self.bubble_contact = true;
+if !keyboard_check(bubble_direction) {
+	other.trigger_hurt    = true;
+	other.curr_hp        -= 1;
+	 self.bubble_contact  = true;
 };
 
 var popped = instance_create_layer(x, y, layer, obj_bubble_pop);

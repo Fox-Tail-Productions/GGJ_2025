@@ -8,53 +8,53 @@ var b_dir;
 // left  = 2
 // top   = 3
 
-        controller_running_timer += delta_time * controller_difficulty / 1000000;
-     if controller_running_timer > 13.0 { controller_running_timer = 0; controller_difficulty += 1; room_goto_next() }
-else if controller_running_timer > 11.1 { action = 3 }
-else if controller_running_timer > 10.9 { action = 1 }
-else if controller_running_timer > 10.6 { action = 1 }
-else if controller_running_timer > 10.3 { action = 3 }
-else if controller_running_timer > 9.9  { action = 3 }
-else if controller_running_timer > 9.5  { action = 1 }
-else if controller_running_timer > 9.3  { action = 2 }
-else if controller_running_timer > 9.3  { action = 2 }
-else if controller_running_timer > 9.1  { action = 2 }
-else if controller_running_timer > 8.5  { action = 3 }
-else if controller_running_timer > 8.5  { action = 1 }
-else if controller_running_timer > 8.1  { action = 2 }
-else if controller_running_timer > 7.9  { action = 2 }
-else if controller_running_timer > 7.7  { action = 3 }
-else if controller_running_timer > 7.6  { action = 1 }
-else if controller_running_timer > 7.3  { action = 1 }
-else if controller_running_timer > 7.0  { action = 2 }
-else if controller_running_timer > 6.8  { action = 2 }
-else if controller_running_timer > 6.8  { action = 1 }
-else if controller_running_timer > 6.5  { action = 2 }
-else if controller_running_timer > 6.3  { action = 2 }
-else if controller_running_timer > 6.0  { action = 3 }
-else if controller_running_timer > 6.0  { action = 2 }
-else if controller_running_timer > 5.7  { action = 2 }
-else if controller_running_timer > 5.4  { action = 1 }
-else if controller_running_timer > 5.1  { action = 3 }
-else if controller_running_timer > 4.8  { action = 2 }
-else if controller_running_timer > 4.6  { action = 2 }
-else if controller_running_timer > 4.4  { action = 1 }
-else if controller_running_timer > 4.2  { action = 3 }
-else if controller_running_timer > 3.9  { action = 2 }
-else if controller_running_timer > 3.7  { action = 2 }
-else if controller_running_timer > 3.5  { action = 3 }
-else if controller_running_timer > 3.4  { action = 1 }
-else if controller_running_timer > 3.2  { action = 2 }
-else if controller_running_timer > 3.1  { action = 2 }
-else if controller_running_timer > 2.9  { action = 1 }
-else if controller_running_timer > 2.7  { action = 3 }
-else if controller_running_timer > 2.7  { action = 2 }
-else if controller_running_timer > 2.4  { action = 2 }
-else if controller_running_timer > 1.8  { action = 3 }
-else if controller_running_timer > 1.7  { action = 2 }
-else if controller_running_timer > 1.7  { action = 1 }
-else if controller_running_timer > 1.5  { action = 2 }
-else if controller_running_timer > 0.6  { action = 1 }
+              controller_running_timer  += delta_time * controller_difficulty / 500000;
+     if       controller_running_timer  >= (130 + 1) { controller_running_timer = 0; controller_difficulty += 0.4; room_goto_next() }
+else if floor(controller_running_timer) == (111 + 1) { controller_running_timer += 1; action = 3 }
+//else if floor(controller_running_timer) == (109 + 1) { controller_running_timer += 1; action = 1 }
+else if floor(controller_running_timer) == (106 + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (103 + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (99  + 1) { controller_running_timer += 1; action = 3 }
+//else if floor(controller_running_timer) == (95  + 1) { controller_running_timer += 1; action = 1 }
+else if floor(controller_running_timer) == (93  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (93  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (91  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (85  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (85  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (81  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (79  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (77  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (76  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (73  + 1) { controller_running_timer += 1; action = 1 }
+else if floor(controller_running_timer) == (70  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (68  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (68  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (65  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (63  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (60  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (60  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (57  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (54  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (51  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (48  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (46  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (44  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (42  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (39  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (37  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (35  + 1) { controller_running_timer += 1; action = 3 }
+//else if floor(controller_running_timer) == (34  + 1) { controller_running_timer += 1; action = 1 }
+else if floor(controller_running_timer) == (32  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (31  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (29  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (27  + 1) { controller_running_timer += 1; action = 3 }
+else if floor(controller_running_timer) == (27  + 1) { controller_running_timer += 1; action = 2 }
+//else if floor(controller_running_timer) == (24  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (18  + 1) { controller_running_timer += 1; action = 3 }
+//else if floor(controller_running_timer) == (17  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (17  + 1) { controller_running_timer += 1; action = 1 }
+//else if floor(controller_running_timer) == (15  + 1) { controller_running_timer += 1; action = 2 }
+else if floor(controller_running_timer) == (06  + 1) { controller_running_timer += 1; action = 1 }
 
 
 if action != 0 {

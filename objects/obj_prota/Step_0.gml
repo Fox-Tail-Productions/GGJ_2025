@@ -5,16 +5,16 @@ var direction_pointing = 0;
 
 // Direcciones
 if keyboard_check(vk_down) {
-	sprite_index = spr_prota_ouch2_v3;
+	if sprite_index != spr_prota_ouch2_v3 { sprite_index = spr_prota_ouch2_v3 };
 	direction_pointing = 1;
 } else if keyboard_check(vk_up) {
-	sprite_index = spr_prota_up;
+	if sprite_index != spr_prota_up { sprite_index = spr_prota_up };
 	direction_pointing = 2;
 } else if keyboard_check(vk_left) {
-	sprite_index = spr_prota_left;
+	if sprite_index != spr_prota_left { sprite_index = spr_prota_left };
 	direction_pointing = 3;
 } else if keyboard_check(vk_right) {
-	sprite_index = spr_prota_right;
+	if sprite_index != spr_prota_right { sprite_index = spr_prota_right };
 	direction_pointing = 4;
 };
 
@@ -54,8 +54,10 @@ if ((keyboard_check(vk_escape) and game_end_triggered == -1)) {
 // hurt n hp n stuff
 if curr_hp < 1 {  curr_hp = max_hp; room_goto(room_menu); };
 
+show_debug_message("{0}, {1}", trigger_hurt, hurt_timer);
 // ouchi ouchi ouch
-if trigger_hurt           { hurt_timer += delta_time;
-	if hurt_timer < hurt_time { sprite_index = spr_prota_ouch2_v3;
-	} else { trigger_hurt = false; };
-}
+if trigger_hurt {
+	   hurt_timer += delta_time / 1000000;
+	if hurt_timer  < hurt_time { sprite_index = spr_prota_ouch2_v3; }
+	else                      { trigger_hurt = false; hurt_timer = 0; };
+};
