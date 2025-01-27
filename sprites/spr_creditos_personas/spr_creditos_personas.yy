@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"spr_creditos_personas",
   "bboxMode":0,
-  "bbox_bottom":993,
+  "bbox_bottom":912,
   "bbox_left":99,
   "bbox_right":1573,
   "bbox_top":75,

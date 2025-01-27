@@ -18,8 +18,6 @@ if keyboard_check(vk_down) {
 	direction_pointing = 4;
 };
 
-
-
 // Al salir, suena sonido de burbuja y la ventana explota como burbuja
 if game_end_triggered == 0 { game_end(0); } else
 if game_end_triggered > 0 {
@@ -54,7 +52,6 @@ if ((keyboard_check(vk_escape) and game_end_triggered == -1)) {
 // hurt n hp n stuff
 if curr_hp < 1 {  curr_hp = max_hp; room_goto(room_menu); };
 
-show_debug_message("{0}, {1}", trigger_hurt, hurt_timer);
 // ouchi ouchi ouch
 if trigger_hurt {
 	   hurt_timer += delta_time / 1000000;
